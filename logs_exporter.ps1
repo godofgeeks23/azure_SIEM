@@ -1,3 +1,4 @@
+# godofgeeks23
 # Get API key from here: https://ipgeolocation.io/
 $API_KEY      = "YOUR-API-KEY-HERE"
 $LOGFILE_NAME = "failed_rdp.log"
@@ -15,7 +16,7 @@ $XMLFilter = @'
 '@
 
 <#
-    This function creates a bunch of sample log files that will be used to train the
+    This function creates a bunch of sample log files that will be used to train the 
     Extract feature in Log Analytics workspace. If you don't have enough log files to
     "train" it, it will fail to extract certain fields for some reason -_-.
     We can avoid including these fake records on our map by filtering out all logs with
